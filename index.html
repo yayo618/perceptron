@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perceptrón</title>
+</head>
+<body>
+    <h1>HISTORIA DE LA INTELIGENCIA ARTIFICIAL</h1>
+    <p>AUTOR: Jorge Flores Ari</p>
+
+    <p align="justify">
+    La base fundamental de la inteligencia artificial y las redes neuronales es el perceptrón, llamado también, neurona artificial, el cual fue desarrollado por <a href="https://en.m.wikipedia.org/wiki/Frank_Rosenblatt" target="_blank">Frank Rosenblatt</a> (padre de la inteligencia artificial antigua). 
+    </p>
+    <br>
+
+    <a href="https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon">
+    <img src="https://news.cornell.edu/sites/default/files/styles/full_size/public/2019-09/0925_rosenblatt3.jpg?itok=glQnp70v" width="450" alt="Frank Rosenblatt">
+    </a>
+    <p><i>Frank Rosenblatt 1928 - 1971</i></p><br>
+
+    <p align="justify">
+    Fue implementado en 1957 como software en un IBM 704 (el ordenador más potente de la época), mediante el uso de targetas perforadas, usando el lenguaje LISP.</p> <br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/IBM_704_mainframe.gif" width="450" alt="ibm704">
+<p><i>Un computador IBM 704, con los controladores IBM 727 y un monitor IBM 780 CRT</i></p>
+<br>
+
+    <p align="justify">
+    Recibió el financiamento de la oficina de investigación naval para desarrollar el <b>MARK 1 Perceptron</b>, costó un aproximado de $100 000 en 1959, (un millón de dólares actuales). Y fue construido en el Cornell Aeronautical Laboratory situado en Buffalo, en 1960</i>, el cual usaba perillas ajustables accionadas por motores eléctricos, y se dedicaba exclusivamente a la clasificación de imágenes, concretamente identificar si la imagen es un hombre o mujer.
+</p><br>
+
+    <a href="https://www.pnas.org/doi/10.1073/pnas.1907373117" target="_blank">
+    <img src="https://www.pnas.org/cms/10.1073/pnas.1907373117/asset/b7ec6561-b471-4026-9906-c45fb93bc5a9/assets/images/large/pnas.1907373117fig03.jpg" width="800" alt="Mark 1 perceptron">
+    <p><i>MARK I Perceptron, construido en 1958. Al lado un artículo en el New York Times, 8 de julio 1988.</i></p>
+    </a>
+
+    <img src="https://www.researchgate.net/profile/Nival-Kolambage/publication/345813508/figure/fig2/AS:1066355805650944@1631250444039/Frank-Rosenblatt-with-his-Mark-I-perceptronleft-and-a-graphical-representation-of.jpg" alt="Mark 1 y su representacion">
+    <p><i>Frank Rosenblatt con el Mark I perceptron (izquierda) y su representación gráfica (derecha).</i></p>
+
+
+    <iframe width="640" height="480" frameborder="0" src="https://www.youtube.com/embed/cNxadbrN_aI?controls=1&cc_load_policy=1">
+    </iframe>
+<br>
+<p><i>Video donde se explica el proceso del Mark 1</i></p>
+
+
+    <br>
+    
+
+    <p align="justify">
+    Rosenblatt se basó en el trabajo de la <a href="https://es.m.wikipedia.org/wiki/Neurona_de_McCulloch-Pitts">Neurona de McCulloch-Pitts</a>, que lo escribieron en un paper en 1943 denominado "A Logical Calculus of Ideas Immanent in Nervous Activity", que a su vez estuvo desarrollada en los estudios sobre el sistema nervioso, realizado por el neurocientífico <a href="https://es.m.wikipedia.org/wiki/Santiago_Ramón_y_Cajal#">Santiago Ramón y Cajal</a> y por el neurofisiólogo <a href="https://es.m.wikipedia.org/wiki/Charles_Scott_Sherrington">Charles Scott Sherrington</a>, pioneros en el estudio del funcionamiento del cerebro humano.
+    </p>
+
+
+    <a href="https://www.csic.es/es/legado-cajal">
+    <img src="https://www.cervantes.es/imagenes/Image/bibliotecas_documentacion_espanol/fotoscreadores/cajal_valencia_200.jpg" width="450"alt="Ramon y Cajal">
+    </a>
+    <p>Santiago Ramón y Cajal 1852 - 1934</p>
+
+    <a href="https://psicologiaymente.com/biografias/charles-scott-sherrington">
+    <img src="https://www.biografiasyvidas.com/biografia/s/fotos/sherrington.jpg" width="450"alt="Sherrington">
+    </a>
+    <a href="https://www.biografiasyvidas.com/biografia/s/sherrington.htm">
+    <p>Charles Scott Sherrington 1857 - 1952</p>
+    </a><br>
+
+    <p align="justify">
+    La <a href="https://lamaquinaoraculo.com/computacion/el-modelo-neuronal-de-mcculloch-y-pitts/">Neurona de McCulloch-Pitts</a> es una unidad de cálculo que intenta modelar el comportamiento de una neurona natural, las que constituyen el cerebro. Ella es la unidad esencial con la cual se construye una red neuronal artificial.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Perceptrón_5_unidades.svg/1280px-Perceptrón_5_unidades.svg.png" width="640" alt="diagrama perceptron">
+
+    <p align="justify">
+    El perceptrón está formado por una serie de componentes como:<br>
+    <ol>
+        <li>
+<b>Entrada</b>. Las entradas en el algoritmo del perceptrón se entienden como x1, x2, x3, x4 y así sucesivamente. Todas estas entradas denotan los valores del perceptrón de características y la ocurrencia total de las características.
+        </li>
+
+        <li>
+<b>Pesos</b>. Se observan como valores que se planifican al largo de la sesión de preparación del perceptrón. Los pesos ofrecen un valor preliminar en el inicio del aprendizaje del algoritmo. Con la ocurrencia de cada inexactitud de entrenamiento, los valores de los pesos se actualizan. Estos se representan principalmente como w1, w2, w3, w4 y así sucesivamente.
+        </li>
+
+        <li>
+<b>Función de activación</b>. Cada función de activación, o no lineal, toma un único número y realiza una determinada operación matemática fija sobre él. Hay varias funciones de activación que se pueden encontrar en la práctica, las más comunes son la Sigmoide o la ReLU o unidad lineal rectificada.
+        </li>
+
+        <li>
+<b>Suma ponderada</b>. Es la proliferación de cada valor de entrada o característica asociada con el valor de paso correspondiente.<br>
+        </li>
+
+        <li>
+<b>Salida</b>. La suma ponderada se pasa a la función de activación y cualquier valor que obtengamos después del cálculo es nuestra salida predicha.
+        </li>
+    </ol>
+<br>
+
+<br>
+<br>
+    </p>
+
+    <a href="https://es.m.wikipedia.org/wiki/Walter_Pitts">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/1954_Walter_Pitts_and_a_blackboard.jpg" width="450"alt="Pitts">
+    </a>
+    <p>Walter Pitts 1923 - 1969</p>
+    <a href="https://en.m.wikipedia.org/wiki/Warren_Sturgis_McCulloch">
+    <img src="https://lamaquinaoraculo.com/wp-content/uploads/2021/01/warren_mcculloch.jpg" width="450"alt="McCulloch">
+    </a>
+    <p>Warren McCulloch 1898 - 1969</p>
+
+<!--    
+    <a href="https://mind.ilstu.edu/curriculum/mcp_neurons/index.html">McCulloch-Pitts Neurons</a>
+-->
+<iframe width="640" height="360" src="https://www.youtube.com/embed/CU24iC3grq8" frameborder="0"></iframe>
+    <p><i>Video donde explica de manera intuitiva el funcionamiento del perceptrón (por Ringa Tech)</i></p>
+<br>
+<p align="justify">Avanzando unas décadas, la historia del perceptrón continuó con el trabajo presentado por Geoffery Hinton en 1986, cuando presentó un nuevo procedimiento de aprendizaje con el nombre de retropropagación que pasó a convertirse en la columna vertebral de los modelos de redes neuronales actuales.</p>
+<!--
+https://aprendeia.com/que-es-el-perceptron-simple-y-multicapa/
+-->
+</body>
+</html>
